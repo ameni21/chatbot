@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": [
+        "Salut",
+        "Bonjour",
+        "Bonsoir",
+        "Comment ça va?",
+        "Comment vas-tu?",
+        "vous allez bien ?"
+      ],
+      "responses": [
+        "Salut :-)",
+        "Bonjour",
+        "Bonsoir",
+        "ça va trés bien",
+        "ça va merci. Et toi ?",
+        "je vais bien,merci. Et vous?",
+        "Bonjour, merci de votre visite",
+        "Bonjour, que puis-je faire pour vous?",
+        "Bonjour, comment puis-je vous aider?"
+      ]
+    },
+    {
+      "tag": "Au revoir",
+      "patterns": [
+       "Au revoir",
+       "Bonne nuit",
+       "Bonne journée"
+       ],
+      "responses": [
+       "A tout à l'heure !,Merci de votre visite",
+       "Bonne journée",
+       "Au revoir! Revenez bientôt."
+      ]
+    },
+    {
+      "tag": "Merci",
+      "patterns": ["Merci", "C'est utile", "Merci beaucoup!"],
+       "responses": ["de rien","Au plaisir de vous aider!", "À tout moment!", "C'est avec plaisir"]    },
+    {
+      "tag": "définition",
+      "patterns": [
+        "Qu'est-ce que l'autisme",
+        "C'est quoi l'autisme ?"
+      ],
+      "responses": [
+        "L’autisme fait partie des Troubles Envahissants du Développement En gros, il s’agit de troubles qui apparaissent tôt dans la vie de l’enfant et qui affectent sa capacité à interagir avec le monde et avec les autres.",
+        "Le trouble du spectre de l’autisme (TSA) fait partie de l’ensemble des troubles neurodéveloppementaux décrit dans le DSM-V. Il se caractérise par des difficultés importantes dans deux domaines, soit la communication et les interactions sociales et les comportements, activités et intérêts restreints ou répétitifs",
+        "L’autisme n’est pas un trouble du comportement, ni un trouble psychique, ni un trouble de la personnalité. On naît autiste de la même manière que l’on vient au monde avec des grandes ou des petites oreilles."
+      ]
+    },
+    {
+      "tag": "diagnostic ",
+      "patterns": [
+        "Comment obtenir un diagnostic pour mon enfant? Quelle est la procédure?",
+        "Je viens de recevoir le diagnostic de mon enfant. Que puis-je faire?",
+        "A quel âge peut-on diagnostiquer l’autisme ?"
+      ],
+      "responses": [
+        "Les toutes premières observations des signes précoces d’autisme peuvent se faire après la première année.Un dépistage précoce doit être assorti de la mise en place rapide d’une prise en charge adaptée, permettant d’augmenter notablement les chances de progression ultérieure de l’enfant.",
+        "Vous devez prendre rendez-vous avec un pédiatre ou avec votre médecin de famille. S’il y a lieu, celui-ci vous réfèrera en pédopsychiatrie ou à un centre de développement ou d’évaluation diagnostique, selon la façon de faire dans votre région. Le processus d’évaluation s’effectue généralement en plusieurs rencontres et peut inclure plusieurs spécialistes.",
+        "Téléchargez la pochette À l’attention des parents : un guide pour vos premières démarches après le diagnostic pour des conseils concrets. Consultez également la section Mon enfant est autiste, vous y trouverez de nombreux renseignements sur les démarches à suivre"
+      ]
+    },
+    {
+      "tag": "exprime ",
+      "patterns": [
+        "Comment s’exprime l’autisme ?"
+       
+      ],
+      "responses": [
+        "Les manifestations de l’autisme varient fortement non seulement d’une personne à l’autre mais aussi chez une même personne. Les difficultés des personnes autistes touchent de nombreux domaines, particulièrement ceux qui nécessitent ou engendrent un contact avec l’environnement.",
+        "des particularités dans la communication sociale et les interactions sociales",
+        "des schémas comportementaux répétitifs (stéréotypies, écholalies, rituels...), un répertoire restreint d’intérêts et des particularités dans le traitement neurosensoriel.",
+        "Le niveau d’intelligence des personnes avec un TSA va d’une intelligence supérieure à une déficience intellectuelle sévère."
+
+      ]
+    },
+    {
+      "tag": "les causes de l’autisme",
+      "patterns": [
+        "Quelles sont les causes de l’autisme ?",
+        "Peut-on guérir l’autisme ?",
+        "Existe-t-il un traitement efficace ?"
+     
+      ],
+      "responses": [
+        "Le recours aux médicaments ne devrait jamais supplanter les mesures éducatives. Les personnes autistes n’apprennent pas spontanément. Toutes les notions doivent être entrainées et répétées. Les personnes autistes ont besoin d’être aidées dans leurs apprentissages.",
+        "on ne peut pas guérir l’autisme. Toutefois il est erroné de prétendre que les personnes autistes ne peuvent pas évoluer favorablement , Même si la personne reste autiste, sa situation de handicap peut être considérablement réduite grâce à un environnement éducatif adéquat.",
+        "A ce jour, il n’existe aucun remède pouvant soigner l’autisme. Toutefois des manifestations accompagnant fréquemment l’autisme (troubles du sommeil, troubles graves du comportement) peuvent, dans certains cas, être atténuées grâce au recours à des médicaments.",
+        "Les causes de l’autisme n’ont pas été clairement élucidées à ce jour,  On sait que l’autisme est dû à des anomalies neuro-développementales.",
+        "En l’état actuel de la science, on ne peut pas guérir l’autisme. Toutefois, beaucoup de progrès peuvent être atteints grâce à un accompagnement précoce et à une prise en charge spécifiquement adaptée de type socio-éducatif et Enseignemt Structuré , quel que soit l’âge et le niveau de la personne.",
+        "L’autisme est un handicap à vie. Il n’existe à ce jour aucun traitement qui permette d’en guérir. Cependant l’expérience prouve : qu’une prise en charge précoce,une éducation spécifique, un environnement structuré,permettent à un enfant autiste d’optimiser ses compétences et d’atteindre son plein potentiel en tant qu’adulte."
+      ]
+    },
+    {
+      "tag": "apparence",
+      "patterns": [
+        "Les autistes ont-ils une apparence particulière ?",
+        "Les autistes sont-ils aussi handicapés physiques ?",
+        "L’autisme est-il un problème émotionnel ?"
+      ],
+      "responses": [
+        "L’autisme n’affecte pas le physique. Aussi, leur comportement parfois curieux (balancements, mouvements des doigts devant les yeux.) engendre souvent l’incompréhension.",
+        "L’autisme peut être associé à d’autres problèmes.Cependant, tout comme le reste de la population, les autistes n’ont, en général pas de handicap physique ou problème de santé particulier et ont la même espérance de vie.",
+        "L'autisme n'est pas un problème émotionnel. Les personnes avec autisme connaissent les sentiments tout comme nous, mais la manière dont elles les manifestent est différente, d'une autre qualité que la nôtre. Cela n'a rien d'étonnant. L'autisme se caractérise essentiellement par des difficultés qualitatives en matière de communication. Il est donc logique que, chez elles, le développement de la communication des émotions s'écarte du schéma normal. Bien souvent, seuls les parents comprennent les émotions exprimées par leur enfant mais pour les étrangers, cela est souvent incompréhensible et confus."
+      ]
+    },
+    {
+      "tag": "la capacité intellectuelle",
+      "patterns": [
+        "Quelle est la capacité intellectuelle des autistes ?",
+        "Quelles sont les capacités linguistiques des autistes ?",
+        "Comment développer le langage ?",
+        "Dans quels domaines les autistes excellent-ils ?"
+      ],
+      "responses": [
+        "Cela va du handicap intellectuel sévère à une intelligence moyenne et supérieure à la moyenne.",
+        "L’acquisition du langage est tardive et très désordonnée.",
+        "Le programme fonctionnel s’appuiera sur les forces (pôles d’excellence) et besoins de l’autiste concerné. On y intégrera symboles, signes, mots imprimés, photographies , Une part importante sera réservée à l’interaction sociale et à la communication.",
+        "Certains autistes (non la majorité) ont des compétences exceptionnelles dans les domaines de la musique, les mathématiques, la mécanique, par exemple."
+      ]
+    },
+    {
+      "tag": "comprendre",
+      "patterns": [
+        "Est-ce que les autistes ressentent la douleur comme nous",
+        "Une personne autiste comprend-elle ce que je ressens ?",
+        "Si 2 personnes autistes sont ensembles, est-ce qu'elles se comprennent mieux? "
+      ],
+      "responses": [
+        "Non, ils ne ressentent pas la douleur comme nous.",
+        "Un autiste a les mêmes émotions que nous, donc oui, il peut les comprendre. Mais pour détecter ce que les autres sont en train de ressentir, il doit faire un effort supplémentaire par rapport à nous. Par exemple, beaucoup d’autistes doivent apprendre les émotions sur les visages grâce à des séries de photos, pour retenir, au hasard, que les sourcils froncés sont synonymes de colère.",
+        "Tout dépend du type d'autisme. Deux personnes autistes de haut niveau (type Asperger) peuvent effectivement mieux se comprendre car ils fonctionnent de la même manière, même s'ils peuvent être gênés par leurs difficultés à communiquer.",
+        "les autistes ont bien sûr des émotions comme tout le monde, mais ils ont souvent du mal à les décrypter chez les autres, ou doivent apprendre à le faire."
+      ]
+    }
+  ]
+}
+ 
